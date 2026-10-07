@@ -1,12 +1,9 @@
-/* =========================================
+/* ==========================================
    ISONFAM PREMIUM SCENTS
-   Main Stylesheet
-========================================= */
+========================================== */
 
 
-/* =========================================
-   RESET
-========================================= */
+/* RESET */
 
 * {
     margin: 0;
@@ -21,19 +18,29 @@ html {
 
 
 body {
-    font-family: Times New Roman, Montserrat, serif;
-    background: #f4f0e8;
+
+    font-family:
+        Times New Roman,
+        Montserrat,
+        sans-serif;
+
+    background: #f3efe7;
+
     color: #171717;
+
     line-height: 1.6;
+
 }
 
 
-/* =========================================
+/* ==========================================
    NAVIGATION
-========================================= */
+========================================== */
 
 .navbar {
+
     position: absolute;
+
     top: 0;
     left: 0;
 
@@ -42,121 +49,384 @@ body {
     padding: 28px 6%;
 
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
 
-    z-index: 10;
+    z-index: 100;
+
 }
 
 
 .logo {
+
     color: #ffffff;
+
     text-decoration: none;
 
     font-size: 20px;
+
     font-weight: 700;
 
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+
 }
 
 
 .navbar nav {
+
     display: flex;
-    gap: 35px;
+
+    gap: 30px;
+
 }
 
 
 .navbar nav a {
-    color: #ffffff;
+
     text-decoration: none;
 
-    font-size: 12px;
+    font-size: 11px;
 
     letter-spacing: 2px;
+
     text-transform: uppercase;
 
-    transition: opacity 0.3s ease;
+    transition: opacity .3s ease;
+
 }
 
 
 .navbar nav a:hover {
-    opacity: 0.6;
+
+    opacity: .5;
+
 }
 
 
-/* =========================================
-   HERO
-========================================= */
+.dark-logo {
 
-.hero {
-    min-height: 100vh;
+    color: #171717;
 
-    display: flex;
-    align-items: center;
-
-    padding: 120px 8%;
-
-    background:
-        linear-gradient(
-            rgba(20, 20, 20, 0.55),
-            rgba(20, 20, 20, 0.55)
-        ),
-        url("images/hero.jpg");
-
-    background-size: cover;
-    background-position: center;
 }
 
 
-.hero-content {
-    max-width: 650px;
-    color: #ffffff;
+.dark-link {
+
+    color: #171717;
+
 }
 
+
+/* ==========================================
+   GENERAL
+========================================== */
 
 .eyebrow {
-    font-size: 11px;
+
+    font-size: 10px;
 
     letter-spacing: 5px;
 
     text-transform: uppercase;
 
     margin-bottom: 20px;
+
 }
 
 
-.hero h1 {
-    font-size: clamp(55px, 9vw, 120px);
+.eyebrow.dark {
 
-    line-height: 0.9;
+    color: #777;
 
-    font-weight: 500;
-
-    letter-spacing: -3px;
-
-    margin-bottom: 35px;
 }
 
 
-.hero-description {
-    max-width: 450px;
+.button {
 
-    font-size: 16px;
-
-    margin-bottom: 35px;
-
-    color: #eeeeee;
-}
-
-
-.hero-button {
     display: inline-block;
 
-    padding: 15px 30px;
+    padding: 15px 25px;
+
+    text-decoration: none;
+
+    font-size: 10px;
+
+    letter-spacing: 2px;
+
+    transition: all .3s ease;
+
+}
+
+
+.button-light {
 
     border: 1px solid #ffffff;
 
     color: #ffffff;
+
+}
+
+
+.button-light:hover {
+
+    background: #ffffff;
+
+    color: #171717;
+
+}
+
+
+.button-outline {
+
+    border: 1px solid rgba(255,255,255,.5);
+
+    color: #ffffff;
+
+}
+
+
+.button-outline:hover {
+
+    background: rgba(255,255,255,.1);
+
+}
+
+
+.button-dark {
+
+    border: 1px solid #171717;
+
+    color: #171717;
+
+}
+
+
+.button-dark:hover {
+
+    background: #171717;
+
+    color: #ffffff;
+
+}
+
+
+/* ==========================================
+   HOMEPAGE HERO
+========================================== */
+
+.hero {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 120px 8%;
+
+    color: #ffffff;
+
+    background:
+
+        linear-gradient(
+            rgba(15,15,15,.65),
+            rgba(15,15,15,.65)
+        ),
+
+        linear-gradient(
+            135deg,
+            #24211d,
+            #827968
+        );
+
+}
+
+
+.hero-content {
+
+    max-width: 700px;
+
+}
+
+
+.hero h1 {
+
+    font-size:
+        clamp(60px, 10vw, 130px);
+
+    line-height: .88;
+
+    font-weight: 400;
+
+    letter-spacing: -4px;
+
+    margin-bottom: 35px;
+
+}
+
+
+.hero-description {
+
+    max-width: 450px;
+
+    font-size: 16px;
+
+    color: #dddddd;
+
+    margin-bottom: 35px;
+
+}
+
+
+.hero-buttons {
+
+    display: flex;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+}
+
+
+/* ==========================================
+   HOMEPAGE INTRO
+========================================== */
+
+.home-intro {
+
+    padding: 140px 8%;
+
+    max-width: 900px;
+
+}
+
+
+.home-intro h2 {
+
+    font-size:
+        clamp(45px, 7vw, 85px);
+
+    font-weight: 400;
+
+    line-height: .95;
+
+    margin-bottom: 30px;
+
+}
+
+
+.home-intro > p:last-child {
+
+    max-width: 550px;
+
+    color: #666;
+
+}
+
+
+/* ==========================================
+   COLLECTION PREVIEW
+========================================== */
+
+.collection-preview {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    min-height: 650px;
+
+}
+
+
+.collection-preview.reverse {
+
+    direction: rtl;
+
+}
+
+
+.collection-preview.reverse
+.preview-content {
+
+    direction: ltr;
+
+}
+
+
+.preview-image {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #d8d0c3,
+            #f3eee5
+        );
+
+}
+
+
+.preview-image span {
+
+    font-size: 30px;
+
+    letter-spacing: 10px;
+
+    color: #555;
+
+}
+
+
+.preview-content {
+
+    padding: 12%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+
+.preview-content h2 {
+
+    font-size:
+        clamp(45px, 6vw, 75px);
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    margin-bottom: 25px;
+
+}
+
+
+.preview-content > p:not(.eyebrow) {
+
+    max-width: 450px;
+
+    color: #666;
+
+    margin-bottom: 30px;
+
+}
+
+
+.text-link {
+
+    color: #171717;
 
     text-decoration: none;
 
@@ -164,327 +434,607 @@ body {
 
     letter-spacing: 2px;
 
-    transition:
-        background 0.3s ease,
-        color 0.3s ease;
 }
 
 
-.hero-button:hover {
-    background: #ffffff;
-    color: #171717;
+.text-link span {
+
+    margin-left: 10px;
+
 }
 
 
-/* =========================================
-   COLLECTION
-========================================= */
+/* ==========================================
+   BRAND STATEMENT
+========================================== */
 
-.collection {
-    padding: 120px 7%;
-}
+.brand-statement {
 
-
-.section-heading {
-    max-width: 650px;
-
-    margin-bottom: 100px;
-}
-
-
-.section-heading h2 {
-    font-size: clamp(40px, 6vw, 70px);
-
-    line-height: 1;
-
-    font-weight: 400;
-
-    margin-bottom: 25px;
-}
-
-
-.section-heading > p:last-child {
-    max-width: 500px;
-
-    color: #666666;
-}
-
-
-/* =========================================
-   COLLECTION GROUP
-========================================= */
-
-.collection-group {
-    margin-bottom: 110px;
-}
-
-
-.collection-title {
-    display: flex;
-    align-items: center;
-
-    gap: 20px;
-
-    margin-bottom: 40px;
-
-    border-bottom: 1px solid #c9c2b7;
-
-    padding-bottom: 20px;
-}
-
-
-.collection-title span {
-    font-size: 12px;
-
-    color: #777777;
-
-    letter-spacing: 2px;
-}
-
-
-.collection-title h3 {
-    font-size: 28px;
-
-    font-weight: 400;
-
-    text-transform: uppercase;
-
-    letter-spacing: 2px;
-}
-
-
-/* =========================================
-   PRODUCT GRID
-========================================= */
-
-.product-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    gap: 25px;
-}
-
-
-.product-card {
-    cursor: pointer;
-}
-
-
-.product-image {
-    aspect-ratio: 3 / 4;
-
-    background:
-        linear-gradient(
-            135deg,
-            #ded7ca,
-            #f7f3eb
-        );
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    overflow: hidden;
-
-    transition:
-        transform 0.4s ease;
-}
-
-
-.product-card:hover .product-image {
-    transform: translateY(-8px);
-}
-
-
-.product-image span {
-    font-size: 15px;
-
-    letter-spacing: 4px;
-
-    color: #333333;
-}
-
-
-.product-info {
-    padding-top: 18px;
-}
-
-
-.product-code {
-    font-size: 10px;
-
-    letter-spacing: 3px;
-
-    color: #777777;
-
-    margin-bottom: 5px;
-}
-
-
-.product-info h4 {
-    font-size: 18px;
-
-    font-weight: 400;
-}
-
-
-/* =========================================
-   ABOUT
-========================================= */
-
-.about {
     background: #171717;
 
     color: #ffffff;
 
-    padding: 140px 8%;
+    padding: 150px 8%;
+
 }
 
 
-.about-content {
-    max-width: 750px;
-}
+.brand-statement h2 {
 
+    max-width: 850px;
 
-.about h2 {
-    font-size: clamp(45px, 7vw, 85px);
+    font-size:
+        clamp(50px, 8vw, 100px);
 
-    line-height: 1;
+    line-height: .9;
 
     font-weight: 400;
 
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+
 }
 
 
-.about p:last-child {
-    max-width: 550px;
+.brand-statement p:last-child {
 
-    color: #cfcfcf;
+    color: #aaa;
 
     font-size: 17px;
+
 }
 
 
-/* =========================================
+/* ==========================================
+   COLLECTION HERO
+========================================== */
+
+.collection-hero {
+
+    min-height: 80vh;
+
+    display: flex;
+
+    align-items: flex-end;
+
+    padding: 120px 8% 90px;
+
+    color: #ffffff;
+
+}
+
+
+.dubai-hero {
+
+    background:
+        linear-gradient(
+            rgba(25,20,15,.45),
+            rgba(25,20,15,.65)
+        ),
+        linear-gradient(
+            135deg,
+            #3e3328,
+            #b09a78
+        );
+
+}
+
+
+.premium-hero {
+
+    background:
+        linear-gradient(
+            rgba(15,15,15,.5),
+            rgba(15,15,15,.7)
+        ),
+        linear-gradient(
+            135deg,
+            #161616,
+            #766f63
+        );
+
+}
+
+
+.collection-hero h1 {
+
+    font-size:
+        clamp(65px, 11vw, 150px);
+
+    line-height: .85;
+
+    font-weight: 400;
+
+    letter-spacing: -5px;
+
+    margin-bottom: 35px;
+
+}
+
+
+.collection-hero p:last-child {
+
+    max-width: 500px;
+
+    font-size: 17px;
+
+    color: #ddd;
+
+}
+
+
+/* ==========================================
+   COLLECTION INTRO
+========================================== */
+
+.collection-intro {
+
+    padding: 130px 8%;
+
+    max-width: 900px;
+
+}
+
+
+.collection-intro h2 {
+
+    font-size:
+        clamp(45px, 7vw, 85px);
+
+    line-height: .95;
+
+    font-weight: 400;
+
+    margin-bottom: 30px;
+
+}
+
+
+.collection-intro > p:last-child {
+
+    max-width: 500px;
+
+    color: #666;
+
+}
+
+
+/* ==========================================
+   SCENT SECTIONS
+========================================== */
+
+.scent-section {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    min-height: 750px;
+
+    border-top: 1px solid #d4cec4;
+
+}
+
+
+.scent-section:nth-child(even) {
+
+    direction: rtl;
+
+}
+
+
+.scent-section:nth-child(even)
+.scent-details {
+
+    direction: ltr;
+
+}
+
+
+.scent-image {
+
+    min-height: 650px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ddd5c8,
+            #f7f3ec
+        );
+
+}
+
+
+.scent-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    position: absolute;
+
+    inset: 0;
+
+}
+
+
+.image-placeholder {
+
+    font-size: 30px;
+
+    letter-spacing: 7px;
+
+    color: #555;
+
+}
+
+
+.scent-details {
+
+    padding: 10%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+
+.scent-number {
+
+    font-size: 11px;
+
+    letter-spacing: 3px;
+
+    color: #999;
+
+    margin-bottom: 30px;
+
+}
+
+
+.scent-details h2 {
+
+    font-size:
+        clamp(55px, 7vw, 95px);
+
+    line-height: .9;
+
+    font-weight: 400;
+
+    letter-spacing: -3px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.scent-description {
+
+    max-width: 550px;
+
+    font-size: 17px;
+
+    color: #555;
+
+    margin-bottom: 45px;
+
+}
+
+
+.scent-info {
+
+    display: grid;
+
+    gap: 20px;
+
+    max-width: 550px;
+
+}
+
+
+.scent-info span,
+.inspiration span {
+
+    display: block;
+
+    font-size: 9px;
+
+    letter-spacing: 3px;
+
+    color: #888;
+
+    margin-bottom: 5px;
+
+}
+
+
+.scent-info p {
+
+    font-size: 14px;
+
+}
+
+
+.inspiration {
+
+    border-top: 1px solid #ccc5ba;
+
+    margin-top: 40px;
+
+    padding-top: 25px;
+
+    max-width: 550px;
+
+}
+
+
+.inspiration p {
+
+    font-size: 14px;
+
+    color: #666;
+
+}
+
+
+/* ==========================================
+   NEXT COLLECTION
+========================================== */
+
+.next-collection {
+
+    padding: 130px 8%;
+
+    text-align: center;
+
+}
+
+
+.next-collection h2 {
+
+    font-size:
+        clamp(50px, 7vw, 90px);
+
+    font-weight: 400;
+
+    margin-bottom: 40px;
+
+}
+
+
+/* ==========================================
    FOOTER
-========================================= */
+========================================== */
 
 footer {
-    background: #111111;
+
+    background: #111;
 
     color: #ffffff;
 
     padding: 60px 7%;
 
     text-align: center;
+
 }
 
 
 .footer-logo {
+
     font-size: 22px;
 
     letter-spacing: 5px;
 
     margin-bottom: 10px;
+
 }
 
 
 footer > p {
+
     font-size: 10px;
 
     letter-spacing: 3px;
 
-    color: #aaaaaa;
+    color: #aaa;
+
 }
 
 
 .copyright {
-    margin-top: 35px;
+
+    margin-top: 30px;
+
 }
 
 
-/* =========================================
-   MOBILE
-========================================= */
+/* ==========================================
+   TABLET
+========================================== */
 
 @media (max-width: 900px) {
 
-    .product-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
+    .collection-preview,
+    .scent-section {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .collection-preview.reverse {
+
+        direction: ltr;
+
+    }
+
+
+    .scent-section:nth-child(even) {
+
+        direction: ltr;
+
+    }
+
+
+    .scent-image {
+
+        min-height: 550px;
+
     }
 
 }
 
+
+/* ==========================================
+   MOBILE
+========================================== */
 
 @media (max-width: 600px) {
 
     .navbar {
+
         padding: 22px 5%;
+
     }
 
 
     .navbar nav {
-        gap: 15px;
+
+        gap: 12px;
+
     }
 
 
     .navbar nav a {
-        font-size: 9px;
+
+        font-size: 8px;
 
         letter-spacing: 1px;
+
+    }
+
+
+    .logo {
+
+        font-size: 16px;
+
     }
 
 
     .hero {
-        padding: 110px 7%;
+
+        padding: 110px 7% 80px;
+
     }
 
 
     .hero h1 {
+
         letter-spacing: -2px;
+
     }
 
 
-    .collection {
-        padding: 80px 6%;
+    .hero-buttons {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
     }
 
 
-    .section-heading {
-        margin-bottom: 70px;
-    }
+    .home-intro,
+    .collection-intro {
 
-
-    .collection-title h3 {
-        font-size: 20px;
-    }
-
-
-    .product-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-
-        gap: 15px;
-    }
-
-
-    .product-image {
-        aspect-ratio: 3 / 4;
-    }
-
-
-    .product-info h4 {
-        font-size: 15px;
-    }
-
-
-    .about {
         padding: 90px 7%;
+
+    }
+
+
+    .collection-preview {
+
+        min-height: auto;
+
+    }
+
+
+    .preview-image {
+
+        min-height: 400px;
+
+    }
+
+
+    .preview-content {
+
+        padding: 80px 7%;
+
+    }
+
+
+    .brand-statement {
+
+        padding: 100px 7%;
+
+    }
+
+
+    .collection-hero {
+
+        min-height: 75vh;
+
+        padding: 110px 7% 70px;
+
+    }
+
+
+    .collection-hero h1 {
+
+        letter-spacing: -3px;
+
+    }
+
+
+    .scent-image {
+
+        min-height: 500px;
+
+    }
+
+
+    .scent-details {
+
+        padding: 75px 7%;
+
+    }
+
+
+    .scent-details h2 {
+
+        letter-spacing: -2px;
+
+    }
+
+
+    .next-collection {
+
+        padding: 100px 7%;
+
     }
 
 }
