@@ -2,62 +2,42 @@
    ISONFAM PREMIUM SCENTS
 ========================================== */
 
-
 /* RESET */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
 
-
 body {
-
     font-family:
         Times New Roman,
         Montserrat,
         sans-serif;
-
     background: #f3efe7;
-
     color: #171717;
-
     line-height: 1.6;
-
 }
-
 
 /* ==========================================
    NAVIGATION
 ========================================== */
 
 .navbar {
-
     position: absolute;
-
     top: 0;
     left: 0;
-
     width: 100%;
-
     padding: 28px 6%;
-
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     z-index: 100;
-
 }
-
 
 .logo {
     display: flex;
@@ -86,27 +66,17 @@ body {
     text-decoration: none;
 }
 
-
 .navbar nav {
-
     display: flex;
-
     gap: 30px;
-
 }
-
 
 .navbar nav a {
     color: #ffffff;
-
     text-decoration: none;
-
     font-size: 11px;
-
     letter-spacing: 2px;
-
     text-transform: uppercase;
-
     transition:
         color 0.3s ease,
         opacity 0.3s ease;
@@ -117,124 +87,74 @@ body {
     opacity: 1;
 }
 
-
 .navbar nav a:hover {
-
     opacity: .5;
-
 }
 
 .navbar nav a.active {
     color: #bf0000;
 }
 
-
 .dark-logo {
-
     color: #ffffff;
-
 }
-
 
 .dark-link {
-
     color: #ffffff;
-
 }
-
 
 /* ==========================================
    GENERAL
 ========================================== */
 
 .eyebrow {
-
     font-size: 10px;
-
     letter-spacing: 5px;
-
     text-transform: uppercase;
-
     margin-bottom: 20px;
-
 }
-
 
 .eyebrow.dark {
-
     color: #777;
-
 }
-
 
 .button {
-
     display: inline-block;
-
     padding: 15px 25px;
-
     text-decoration: none;
-
     font-size: 10px;
-
     letter-spacing: 2px;
-
     transition: all .3s ease;
-
 }
-
 
 .button-light {
-
     border: 1px solid #ffffff;
-
     color: #ffffff;
-
 }
-
 
 .button-light:hover {
-
     background: #ffffff;
-
     color: #171717;
-
 }
-
 
 .button-outline {
-
     border: 1px solid rgba(255,255,255,.5);
-
     color: #ffffff;
-
 }
-
 
 .button-outline:hover {
-
     background: rgba(255,255,255,.1);
-
 }
-
 
 .button-dark {
-
     border: 1px solid #171717;
-
     color: #171717;
-
 }
-
 
 .button-dark:hover {
-
     background: #171717;
-
     color: #ffffff;
-
 }
-
 
 /* ==========================================
    HOMEPAGE HERO
@@ -262,7 +182,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 .hero-content {
     max-width: 700px;
@@ -392,7 +311,7 @@ body {
 }
 
 .brand-statement h2 {
-    max-width: 850px;
+    max-width: 950px;
     font-size:
         clamp(50px, 8vw, 100px);
     line-height: .9;
@@ -601,137 +520,84 @@ body {
 ========================================== */
 
 .next-collection {
-
     padding: 130px 8%;
-
     text-align: center;
-
 }
-
 
 .next-collection h2 {
-
     font-size:
         clamp(50px, 7vw, 90px);
-
     font-weight: 400;
-
     margin-bottom: 40px;
-
 }
-
 
 /* ==========================================
    FOOTER
 ========================================== */
 
 footer {
-
     background: #111;
-
     color: #ffffff;
-
     padding: 60px 7%;
-
     text-align: center;
-
 }
-
 
 .footer-logo {
-
     font-size: 22px;
-
     letter-spacing: 5px;
-
     margin-bottom: 10px;
-
 }
-
 
 footer > p {
-
     font-size: 10px;
-
     letter-spacing: 3px;
-
     color: #aaa;
-
 }
-
 
 .copyright {
-
     margin-top: 30px;
-
 }
-
 
 /* ==========================================
    TABLET
 ========================================== */
 
 @media (max-width: 900px) {
-
     .collection-preview,
     .scent-section {
-
         grid-template-columns: 1fr;
-
     }
-
 
     .collection-preview.reverse {
-
         direction: ltr;
-
     }
-
 
     .scent-section:nth-child(even) {
-
         direction: ltr;
-
     }
-
 
     .scent-image {
-
         min-height: 550px;
-
     }
-
 }
-
 
 /* ==========================================
    MOBILE
 ========================================== */
 
 @media (max-width: 600px) {
-
     .navbar {
-
         padding: 22px 5%;
-
     }
-
 
     .navbar nav {
-
         gap: 12px;
-
     }
-
 
     .navbar nav a {
-
         font-size: 8px;
-
         letter-spacing: 1px;
-
     }
-
 
     .logo img {
        width: 27px;
@@ -743,79 +609,47 @@ footer > p {
        letter-spacing: 3px;
    }
 
-
     .hero {
-
         padding: 110px 7% 80px;
-
     }
-
 
     .hero h1 {
-
         letter-spacing: -2px;
-
     }
-
 
     .hero-buttons {
-
         flex-direction: column;
-
         align-items: flex-start;
-
     }
-
 
     .home-intro,
     .collection-intro {
-
         padding: 90px 7%;
-
     }
-
 
     .collection-preview {
-
         min-height: auto;
-
     }
-
 
     .preview-image {
-
         min-height: 400px;
-
     }
-
 
     .preview-content {
-
         padding: 80px 7%;
-
     }
-
 
     .brand-statement {
-
         padding: 100px 7%;
-
     }
-
 
     .collection-hero {
-
         min-height: 75vh;
-
         padding: 110px 7% 70px;
-
     }
 
-
     .collection-hero h1 {
-
         letter-spacing: -3px;
-
     }
 
 
@@ -825,25 +659,15 @@ footer > p {
 
     }
 
-
     .scent-details {
-
         padding: 75px 7%;
-
     }
-
 
     .scent-details h2 {
-
         letter-spacing: -2px;
-
     }
-
 
     .next-collection {
-
         padding: 100px 7%;
-
     }
-
 }
