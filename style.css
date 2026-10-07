@@ -93,6 +93,7 @@ body {
 
 
 .navbar nav a {
+    color: #ffffff;
 
     text-decoration: none;
 
@@ -102,8 +103,14 @@ body {
 
     text-transform: uppercase;
 
-    transition: opacity .3s ease;
+    transition:
+        color 0.3s ease,
+        opacity 0.3s ease;
+}
 
+.navbar nav a:hover {
+    color: #bf0000;
+    opacity: 1;
 }
 
 
@@ -123,7 +130,7 @@ body {
 
 .dark-link {
 
-    color: #bf0000;
+    color: #ffffff;
 
 }
 
