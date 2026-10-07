@@ -529,32 +529,42 @@ body {
 
 .dubai-hero {
 
-    background:
+    background-image:
         linear-gradient(
-            rgba(25,20,15,.45),
-            rgba(25,20,15,.65)
+            90deg,
+            rgba(20, 15, 10, 0.88) 0%,
+            rgba(20, 15, 10, 0.65) 40%,
+            rgba(20, 15, 10, 0.35) 75%,
+            rgba(20, 15, 10, 0.50) 100%
         ),
-        linear-gradient(
-            135deg,
-            #3e3328,
-            #b09a78
-        );
+        url("images/dubai-hero.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
 
 }
 
 
 .premium-hero {
 
-    background:
+    background-image:
         linear-gradient(
-            rgba(15,15,15,.5),
-            rgba(15,15,15,.7)
+            90deg,
+            rgba(20, 15, 10, 0.88) 0%,
+            rgba(20, 15, 10, 0.65) 40%,
+            rgba(20, 15, 10, 0.35) 75%,
+            rgba(20, 15, 10, 0.50) 100%
         ),
-        linear-gradient(
-            135deg,
-            #161616,
-            #766f63
-        );
+        url("images/premium-hero.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
 
 }
 
