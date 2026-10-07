@@ -60,17 +60,26 @@ body {
 
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
     color: #ffffff;
-
     text-decoration: none;
+}
 
+.logo img {
+    width: 32px;
+    height: 32px;
+
+    object-fit: contain;
+    display: block;
+}
+
+.logo span {
     font-size: 20px;
-
     font-weight: 700;
-
     letter-spacing: 4px;
-
 }
 
 
