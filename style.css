@@ -243,292 +243,181 @@ body {
 .hero {
 
     min-height: 100vh;
-
     display: flex;
-
     align-items: center;
-
     padding: 120px 8%;
-
     color: #ffffff;
 
-    background:
-
+    background-image:
         linear-gradient(
-            rgba(15,15,15,.65),
-            rgba(15,15,15,.65)
+            90deg,
+            rgba(15, 10, 6, 0.88) 0%,
+            rgba(15, 10, 6, 0.65) 40%,
+            rgba(15, 10, 6, 0.35) 75%,
+            rgba(15, 10, 6, 0.50) 100%
         ),
+        url("images/home-hero.jpg");
 
-        linear-gradient(
-            135deg,
-            #24211d,
-            #827968
-        );
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
 .hero-content {
-
     max-width: 700px;
-
 }
-
 
 .hero h1 {
-
     font-size:
         clamp(60px, 10vw, 130px);
-
     line-height: .88;
-
     font-weight: 400;
-
     letter-spacing: -4px;
-
     margin-bottom: 35px;
-
 }
-
 
 .hero-description {
-
     max-width: 450px;
-
     font-size: 16px;
-
     color: #dddddd;
-
     margin-bottom: 35px;
-
 }
-
 
 .hero-buttons {
-
     display: flex;
-
     gap: 12px;
-
     flex-wrap: wrap;
-
 }
-
 
 /* ==========================================
    HOMEPAGE INTRO
 ========================================== */
 
 .home-intro {
-
     padding: 140px 8%;
-
     max-width: 900px;
-
 }
-
 
 .home-intro h2 {
-
     font-size:
         clamp(45px, 7vw, 85px);
-
     font-weight: 400;
-
     line-height: .95;
-
     margin-bottom: 30px;
-
 }
-
 
 .home-intro > p:last-child {
-
     max-width: 550px;
-
     color: #666;
-
 }
-
 
 /* ==========================================
    COLLECTION PREVIEW
 ========================================== */
 
 .collection-preview {
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     min-height: 650px;
-
 }
-
 
 .collection-preview.reverse {
-
     direction: rtl;
-
 }
-
 
 .collection-preview.reverse
 .preview-content {
-
     direction: ltr;
-
 }
 
-
 .preview-image {
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     background:
         linear-gradient(
             135deg,
             #d8d0c3,
             #f3eee5
         );
-
 }
-
 
 .preview-image span {
-
     font-size: 30px;
-
     letter-spacing: 10px;
-
     color: #555;
-
 }
-
 
 .preview-content {
-
     padding: 12%;
-
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
-
 }
-
 
 .preview-content h2 {
-
     font-size:
         clamp(45px, 6vw, 75px);
-
     font-weight: 400;
-
     line-height: 1;
-
     margin-bottom: 25px;
-
 }
-
 
 .preview-content > p:not(.eyebrow) {
-
     max-width: 450px;
-
     color: #666;
-
     margin-bottom: 30px;
-
 }
-
 
 .text-link {
-
     color: #171717;
-
     text-decoration: none;
-
     font-size: 11px;
-
     letter-spacing: 2px;
-
 }
-
 
 .text-link span {
-
     margin-left: 10px;
-
 }
-
 
 /* ==========================================
    BRAND STATEMENT
 ========================================== */
 
 .brand-statement {
-
     background: #171717;
-
     color: #ffffff;
-
     padding: 150px 8%;
-
 }
-
 
 .brand-statement h2 {
-
     max-width: 850px;
-
     font-size:
         clamp(50px, 8vw, 100px);
-
     line-height: .9;
-
     font-weight: 400;
-
     margin-bottom: 30px;
-
 }
-
 
 .brand-statement p:last-child {
-
     color: #aaa;
-
     font-size: 17px;
-
 }
-
 
 /* ==========================================
    COLLECTION HERO
 ========================================== */
 
 .collection-hero {
-
     min-height: 80vh;
-
     display: flex;
-
     align-items: flex-end;
-
     padding: 120px 8% 90px;
-
     color: #ffffff;
-
 }
 
-
 .dubai-hero {
-
     background-image:
         linear-gradient(
             90deg,
@@ -538,18 +427,12 @@ body {
             rgba(20, 15, 10, 0.50) 100%
         ),
         url("images/dubai-hero.jpg");
-
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
-
 }
 
-
 .premium-hero {
-
     background-image:
         linear-gradient(
             90deg,
@@ -559,269 +442,159 @@ body {
             rgba(20, 15, 10, 0.50) 100%
         ),
         url("images/premium-hero.jpg");
-
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
-
 }
-
 
 .collection-hero h1 {
-
     font-size:
         clamp(65px, 11vw, 150px);
-
     line-height: .85;
-
     font-weight: 400;
-
     letter-spacing: -5px;
-
     margin-bottom: 35px;
-
 }
-
 
 .collection-hero p:last-child {
-
     max-width: 500px;
-
     font-size: 17px;
-
     color: #ddd;
-
 }
-
 
 /* ==========================================
    COLLECTION INTRO
 ========================================== */
 
 .collection-intro {
-
     padding: 130px 8%;
-
     max-width: 900px;
-
 }
-
 
 .collection-intro h2 {
     font-size: clamp(42px, 6vw, 82px);
     line-height: 0.95;
     font-weight: 400;
     letter-spacing: -2px;
-
     max-width: 750px;
-
     margin-bottom: 30px;
 }
 
-
 .collection-intro > p:last-child {
-
     max-width: 500px;
-
     color: #666;
-
 }
-
 
 /* ==========================================
    SCENT SECTIONS
 ========================================== */
 
 .scent-section {
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     min-height: 750px;
-
     border-top: 1px solid #d4cec4;
-
 }
-
 
 .scent-section:nth-child(even) {
-
     direction: rtl;
-
 }
-
 
 .scent-section:nth-child(even)
 .scent-details {
-
     direction: ltr;
-
 }
 
-
 .scent-image {
-
     min-height: 650px;
-
     position: relative;
-
     overflow: hidden;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     background:
         linear-gradient(
             135deg,
             #ddd5c8,
             #f7f3ec
         );
-
 }
-
 
 .scent-image img {
-
     width: 100%;
-
     height: 100%;
-
     object-fit: cover;
-
     position: absolute;
-
     inset: 0;
-
 }
-
 
 .image-placeholder {
-
     font-size: 30px;
-
     letter-spacing: 7px;
-
     color: #555;
-
 }
-
 
 .scent-details {
-
     padding: 10%;
-
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
-
 }
-
 
 .scent-number {
-
     font-size: 11px;
-
     letter-spacing: 3px;
-
     color: #999;
-
     margin-bottom: 30px;
-
 }
-
 
 .scent-details h2 {
-
     font-size:
         clamp(55px, 7vw, 95px);
-
     line-height: .9;
-
     font-weight: 400;
-
     letter-spacing: -3px;
-
     margin-bottom: 30px;
-
 }
-
 
 .scent-description {
-
     max-width: 550px;
-
     font-size: 17px;
-
     color: #555;
-
     margin-bottom: 45px;
-
 }
-
 
 .scent-info {
-
     display: grid;
-
     gap: 20px;
-
     max-width: 550px;
-
 }
-
 
 .scent-info span,
 .inspiration span {
-
     display: block;
-
     font-size: 9px;
-
     letter-spacing: 3px;
-
     color: #888;
-
     margin-bottom: 5px;
-
 }
-
 
 .scent-info p {
-
     font-size: 14px;
 
 }
-
 
 .inspiration {
-
     border-top: 1px solid #ccc5ba;
-
     margin-top: 40px;
-
     padding-top: 25px;
-
     max-width: 550px;
-
 }
-
 
 .inspiration p {
-
     font-size: 14px;
-
     color: #666;
-
 }
-
 
 /* ==========================================
    NEXT COLLECTION
