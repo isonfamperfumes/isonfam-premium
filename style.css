@@ -610,16 +610,15 @@ body {
 
 
 .collection-intro h2 {
-
-    font-size:
-        clamp(45px, 7vw, 85px);
-
-    line-height: .95;
-
+    font-size: clamp(38px, 5.5vw, 82px);
+    line-height: 0.95;
     font-weight: 400;
+    letter-spacing: -2px;
+
+    width: 100%;
+    max-width: 800px;
 
     margin-bottom: 30px;
-
 }
 
 
