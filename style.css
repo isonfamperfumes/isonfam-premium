@@ -120,6 +120,10 @@ body {
 
 }
 
+.navbar nav a.active {
+    color: #bf0000;
+}
+
 
 .dark-logo {
 
