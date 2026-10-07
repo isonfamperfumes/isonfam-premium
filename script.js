@@ -30,7 +30,7 @@ const scents = {
         image: "images/premium/isn001.jpg",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A clean, delicate fragrance with an effortlessly elegant character. Inspired by the simplicity of freshly laundered linen and soft florals, this scent opens with a crisp, airy freshness before settling into a gentle floral heart and a smooth, comforting musk.",
 
         fragranceFamily:
             "Floral • Sweet • Powdery",
@@ -45,7 +45,7 @@ const scents = {
             "Add base notes here.",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "For those who appreciate the understated elegance of Byredo Blanche, ISN001 captures a similarly clean and sophisticated fragrance experience, fresh, feminine, and beautifully refined..",
 
         bestFor:
             "Daytime • Everyday • Special Occasions"
