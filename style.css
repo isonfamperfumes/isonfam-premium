@@ -77,9 +77,13 @@ body {
 }
 
 .logo span {
+    color: #ffffff;
+
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 4px;
+
+    text-decoration: none;
 }
 
 
