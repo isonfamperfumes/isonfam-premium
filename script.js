@@ -117,7 +117,7 @@ const scents = {
             "musky • floral",
 
         inspiration:
-            "Lattaf Perfumes Yara",
+            "Lattafa Perfumes Yara",
 
         bestFor:
             " •  • "
