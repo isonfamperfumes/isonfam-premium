@@ -135,7 +135,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "images/premium/isn004.jpg",
+        image: "https://i.imgur.com/74hNXKh.png",
 
         description:
             "Write the main description of the fragrance here.",
