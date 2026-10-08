@@ -27,28 +27,28 @@ const scents = {
 
         collection: "premium",
 
-        image: "images/premium/isn001.jpg",
+        image: "https://i.imgur.com/5keWiJ0.jpeg",
 
         description:
-            "A clean, delicate fragrance with an effortlessly elegant character. Inspired by the simplicity of freshly laundered linen and soft florals, this scent opens with a crisp, airy freshness before settling into a gentle floral heart and a smooth, comforting musk.",
+            "A soft and elegant blend of fresh florals, clean musk, and powdery notes that leaves you smelling effortlessly fresh, feminine, and beautifully clean.",
 
         fragranceFamily:
-            "Floral • Sweet • Powdery",
+            "Clean • Soft • Elegant",
 
         topNotes:
-            "Add top notes here.",
+            "aldehydic • fresh• musky",
 
         heartNotes:
-            "Add heart notes here.",
+            "powdery • floral • rose",
 
         baseNotes:
-            "Add base notes here.",
+            "woody • violey",
 
         inspiration:
             "For those who appreciate the understated elegance of Byredo Blanche, ISN001 captures a similarly clean and sophisticated fragrance experience, fresh, feminine, and beautifully refined..",
 
         bestFor:
-            "Daytime • Everyday • Special Occasions"
+            " •  • "
 
     },
 
@@ -63,25 +63,25 @@ const scents = {
 
         collection: "dubai",
 
-        image: "images/dubai/isn002.jpg",
+        image: "https://i.imgur.com/JsrI2oe.png",
 
         description:
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            "Sweet • Floral • Feminine",
 
         topNotes:
-            "Add top notes here.",
+            "white floral • musky • fresh",
 
         heartNotes:
-            "Add heart notes here.",
+            "fresh spicy • woody • green",
 
         baseNotes:
-            "Add base notes here.",
+            "floral • powdery • citrusy",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Asdaaf Ameerat Al Arab",
 
         bestFor:
             "Add recommended occasions here."
@@ -99,28 +99,28 @@ const scents = {
 
         collection: "dubai",
 
-        image: "images/dubai/isn003.jpg",
+        image: "https://i.imgur.com/ZVsuZHl.jpeg",
 
         description:
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            "Sweet • Creamy • Soft",
 
         topNotes:
-            "Add top notes here.",
+            "sweet • powdery • vanilla",
 
         heartNotes:
-            "Add heart notes here.",
+            "tropical",
 
         baseNotes:
-            "Add base notes here.",
+            "musky • floral",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Lattaf Perfumes Yara",
 
         bestFor:
-            "Add recommended occasions here."
+            " •  • "
 
     },
 
@@ -141,22 +141,22 @@ const scents = {
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            " •  • ",
 
         topNotes:
-            "Add top notes here.",
+            " •  • ",
 
         heartNotes:
-            "Add heart notes here.",
+            " •  • ",
 
         baseNotes:
-            "Add base notes here.",
+            " •  • ",
 
         inspiration:
             "Add the subtle inspiration/reference information here.",
 
         bestFor:
-            "Add recommended occasions here."
+            " •  • "
 
     },
 
@@ -177,22 +177,22 @@ const scents = {
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            " •  • ",
 
         topNotes:
-            "Add top notes here.",
+            " •  • ",
 
         heartNotes:
-            "Add heart notes here.",
+            " •  • ",
 
         baseNotes:
-            "Add base notes here.",
+            " •  • ",
 
         inspiration:
             "Add the subtle inspiration/reference information here.",
 
         bestFor:
-            "Add recommended occasions here."
+            " •  • "
 
     },
 
@@ -213,22 +213,22 @@ const scents = {
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            " •  • ",
 
         topNotes:
-            "Add top notes here.",
+            " •  • ",
 
         heartNotes:
-            "Add heart notes here.",
+            " •  • ",
 
         baseNotes:
-            "Add base notes here.",
+            " •  • ",
 
         inspiration:
             "Add the subtle inspiration/reference information here.",
 
         bestFor:
-            "Add recommended occasions here."
+            " •  • "
 
     },
 
@@ -249,22 +249,22 @@ const scents = {
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            " •  • ",
 
         topNotes:
-            "Add top notes here.",
+            " •  • ",
 
         heartNotes:
-            "Add heart notes here.",
+            " •  • ",
 
         baseNotes:
-            "Add base notes here.",
+            " •  • ",
 
         inspiration:
             "Add the subtle inspiration/reference information here.",
 
         bestFor:
-            "Add recommended occasions here."
+            " •  • "
 
     },
 
@@ -285,22 +285,22 @@ const scents = {
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            " •  • ",
 
         topNotes:
-            "Add top notes here.",
+            " •  • ",
 
         heartNotes:
-            "Add heart notes here.",
+            " •  • ",
 
         baseNotes:
-            "Add base notes here.",
+            " •  • ",
 
         inspiration:
             "Add the subtle inspiration/reference information here.",
 
         bestFor:
-            "Add recommended occasions here."
+            " •  • "
 
     },
 
@@ -321,22 +321,22 @@ const scents = {
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            " •  • ",
 
         topNotes:
-            "Add top notes here.",
+            " •  • ",
 
         heartNotes:
-            "Add heart notes here.",
+            " •  • ",
 
         baseNotes:
-            "Add base notes here.",
+            " •  • ",
 
         inspiration:
             "Add the subtle inspiration/reference information here.",
 
         bestFor:
-            "Add recommended occasions here."
+            " •  • "
 
     },
 
@@ -357,22 +357,22 @@ const scents = {
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            "Add fragrance family here.",
+            " •  • ",
 
         topNotes:
-            "Add top notes here.",
+            " •  • ",
 
         heartNotes:
-            "Add heart notes here.",
+            " •  • ",
 
         baseNotes:
-            "Add base notes here.",
+            " •  • ",
 
         inspiration:
             "Add the subtle inspiration/reference information here.",
 
         bestFor:
-            "Add recommended occasions here."
+            " •  • "
 
     }
 
