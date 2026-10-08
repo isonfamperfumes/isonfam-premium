@@ -141,19 +141,19 @@ const scents = {
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            " •  • ",
+            "Sweet • Airy • Creamy",
 
         topNotes:
-            " •  • ",
+            "lactonic • vanilla",
 
         heartNotes:
-            " •  • ",
+            "coconut • musky",
 
         baseNotes:
-            " •  • ",
+            "sweet",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Cloud",
 
         bestFor:
             " •  • "
@@ -171,25 +171,25 @@ const scents = {
 
         collection: "premium",
 
-        image: "images/premium/isn005.jpg",
+        image: "https://i.imgur.com/zZILjvW.jpeg",
 
         description:
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            " •  • ",
+            "Fresh • Citrusy • Bright",
 
         topNotes:
-            " •  • ",
+            "citrus • white floral",
 
         heartNotes:
-            " •  • ",
+            "fresh • sweet",
 
         baseNotes:
-            " •  • ",
+            "caramel",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Byredo Sundazed",
 
         bestFor:
             " •  • "
@@ -207,25 +207,25 @@ const scents = {
 
         collection: "premium",
 
-        image: "images/premium/isn006.jpg",
+        image: "https://i.imgur.com/hK19BWk.jpeg",
 
         description:
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            " •  • ",
+            "Woody • Fresh • Earthy",
 
         topNotes:
-            " •  • ",
+            "woody • aromatic • fresh spicy",
 
         heartNotes:
-            " •  • ",
+            "citrus • balsamic • powdery",
 
         baseNotes:
-            " •  • ",
+            "amber • warm spicy • vanilla",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Byredo Gypsy Water",
 
         bestFor:
             " •  • "
@@ -243,25 +243,25 @@ const scents = {
 
         collection: "dubai",
 
-        image: "images/dubai/isn007.jpg",
+        image: "https://i.imgur.com/b936m7A.jpeg",
 
         description:
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            " •  • ",
+            "Gourmand • Warm • Sweet",
 
         topNotes:
-            " •  • ",
+            "sweet • warm spicy • vanilla",
 
         heartNotes:
-            " •  • ",
+            "cinnamon • amber • woody",
 
         baseNotes:
-            " •  • ",
+            "fruity • fresh spicy • smoky",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Lattafa Perfumes Khamrah",
 
         bestFor:
             " •  • "
@@ -279,25 +279,25 @@ const scents = {
 
         collection: "premium",
 
-        image: "images/premium/isn008.jpg",
+        image: "https://i.imgur.com/Aj7YZJ6.jpeg",
 
         description:
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            " •  • ",
+            "Clean • Powdery • Comforting",
 
         topNotes:
-            " •  • ",
+            "floral • powdery • musky",
 
         heartNotes:
-            " •  • ",
+            "citrus • creamy • iris",
 
         baseNotes:
-            " •  • ",
+            "ozonic",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Baby Powder Classic",
 
         bestFor:
             " •  • "
@@ -315,25 +315,25 @@ const scents = {
 
         collection: "dubai",
 
-        image: "images/dubai/isn009.jpg",
+        image: "https://i.imgur.com/XKEIniP.jpeg",
 
         description:
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            " •  • ",
+            "Bold • Spicy • Warm",
 
         topNotes:
-            " •  • ",
+            "amber • fresh spicy • woody",
 
         heartNotes:
-            " •  • ",
+            "sweet • warm spicy • vanilla",
 
         baseNotes:
-            " •  • ",
+            "tobacco • patchouli • balsamic",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Lattafa Perfumes Asad",
 
         bestFor:
             " •  • "
@@ -351,25 +351,25 @@ const scents = {
 
         collection: "premium",
 
-        image: "images/premium/isn010.jpg",
+        image: "https://i.imgur.com/wyjAwDm.jpeg",
 
         description:
             "Write the main description of the fragrance here.",
 
         fragranceFamily:
-            " •  • ",
+            "Fresh • Minty • Sweet",
 
         topNotes:
-            " •  • ",
+            "citrus • green • aromatic • vanilla",
 
         heartNotes:
-            " •  • ",
+            "woody • fresh spicy • fruity",
 
         baseNotes:
-            " •  • ",
+            "powdery • amber • sweet",
 
         inspiration:
-            "Add the subtle inspiration/reference information here.",
+            "Eros",
 
         bestFor:
             " •  • "
