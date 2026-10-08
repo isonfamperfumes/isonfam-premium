@@ -345,7 +345,7 @@ body {
             rgba(20, 15, 10, 0.35) 75%,
             rgba(20, 15, 10, 0.50) 100%
         ),
-        url("images/dubai-hero.jpg");
+        url("https://i.imgur.com/RffQ18F.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -360,7 +360,7 @@ body {
             rgba(20, 15, 10, 0.35) 75%,
             rgba(20, 15, 10, 0.50) 100%
         ),
-        url("images/premium-hero.jpg");
+        url("https://i.imgur.com/b423CLe.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
