@@ -45,7 +45,7 @@ const scents = {
             "woody • violey",
 
         inspiration:
-            "For those who appreciate the understated elegance of Byredo Blanche, ISN001 captures a similarly clean and sophisticated fragrance experience, fresh, feminine, and beautifully refined..",
+            "Byredo Blanche",
 
         bestFor:
             " •  • "
@@ -66,7 +66,7 @@ const scents = {
         image: "https://i.imgur.com/JsrI2oe.png",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A calm, luxurious moment of fresh flowers, soft sunlight, and quiet confidence. A presence that’s noticeable but never overpowering.",
 
         fragranceFamily:
             "Sweet • Floral • Feminine",
@@ -102,7 +102,7 @@ const scents = {
         image: "https://i.imgur.com/ZVsuZHl.jpeg",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A soft and dreamy feminine aura, like being wrapped in a cloud of sweetness and light florals. A scent that feels smooth, airy, and comforting.",
 
         fragranceFamily:
             "Sweet • Creamy • Soft",
@@ -138,7 +138,7 @@ const scents = {
         image: "https://i.imgur.com/74hNXKh.png",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A soft and elegant blend of fresh florals, clean musk, and powdery notes that leaves you smelling effortlessly fresh, feminine, and beautifully clean.",
 
         fragranceFamily:
             "Sweet • Airy • Creamy",
@@ -174,7 +174,7 @@ const scents = {
         image: "https://i.imgur.com/zZILjvW.jpeg",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A carefree summer afternoon by the coast, golden sunlight on warm skin, salty air drifting in, and laughter carrying into a dreamy sunset.",
 
         fragranceFamily:
             "Fresh • Citrusy • Bright",
@@ -210,7 +210,7 @@ const scents = {
         image: "https://i.imgur.com/hK19BWk.jpeg",
 
         description:
-            "Write the main description of the fragrance here.",
+            "Effortlessly clean, late afternoon walk along the coastline, slightly sun-warmed with a light breeze hitting at just the right moment.",
 
         fragranceFamily:
             "Woody • Fresh • Earthy",
@@ -246,7 +246,7 @@ const scents = {
         image: "https://i.imgur.com/b936m7A.jpeg",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A cozy dinner date in a warm, vintage café, surrounded by fresh pastries, soft golden lights, and an intimate, effortlessly elegant atmosphere.",
 
         fragranceFamily:
             "Gourmand • Warm • Sweet",
@@ -282,7 +282,7 @@ const scents = {
         image: "https://i.imgur.com/Aj7YZJ6.jpeg",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A soft, freshly bathed feeling wrapped in clean linens, gentle sunlight, and the comforting warmth of a peaceful childhood afternoon.",
 
         fragranceFamily:
             "Clean • Powdery • Comforting",
@@ -318,7 +318,7 @@ const scents = {
         image: "https://i.imgur.com/XKEIniP.jpeg",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A modern royal presence, a man in a tailored black suit, carrying quiet authority and effortless confidence.",
 
         fragranceFamily:
             "Bold • Spicy • Warm",
@@ -354,7 +354,7 @@ const scents = {
         image: "https://i.imgur.com/wyjAwDm.jpeg",
 
         description:
-            "Write the main description of the fragrance here.",
+            "A bold night out filled with electric energy, confident glances, and the feeling of being the center of attention in a luxurious city after dark.",
 
         fragranceFamily:
             "Fresh • Minty • Sweet",
