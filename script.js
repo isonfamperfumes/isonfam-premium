@@ -45,7 +45,7 @@ const scents = {
             "woody • violey",
 
         inspiration:
-            "Byredo Blanche",
+            "Blanche",
 
         bestFor:
             " •  • "
@@ -81,7 +81,7 @@ const scents = {
             "floral • powdery • citrusy",
 
         inspiration:
-            "Asdaaf Ameerat Al Arab",
+            "Ameerat Al Arab",
 
         bestFor:
             "Add recommended occasions here."
@@ -117,7 +117,7 @@ const scents = {
             "musky • floral",
 
         inspiration:
-            "Lattafa Perfumes Yara",
+            "Yara",
 
         bestFor:
             " •  • "
@@ -189,7 +189,7 @@ const scents = {
             "caramel",
 
         inspiration:
-            "Byredo Sundazed",
+            "Sundazed",
 
         bestFor:
             " •  • "
@@ -225,7 +225,7 @@ const scents = {
             "amber • warm spicy • vanilla",
 
         inspiration:
-            "Byredo Gypsy Water",
+            "Gypsy Water",
 
         bestFor:
             " •  • "
@@ -261,7 +261,7 @@ const scents = {
             "fruity • fresh spicy • smoky",
 
         inspiration:
-            "Lattafa Perfumes Khamrah",
+            "Khamrah",
 
         bestFor:
             " •  • "
@@ -297,7 +297,7 @@ const scents = {
             "ozonic",
 
         inspiration:
-            "Baby Powder Classic",
+            "Baby Powder",
 
         bestFor:
             " •  • "
@@ -333,7 +333,7 @@ const scents = {
             "tobacco • patchouli • balsamic",
 
         inspiration:
-            "Lattafa Perfumes Asad",
+            "Asad",
 
         bestFor:
             " •  • "
