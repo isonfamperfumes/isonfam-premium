@@ -27,7 +27,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "Bliss.png",
+        image: "https://i.imgur.com/5keWiJ0.jpeg",
 
         description:
             "A soft and elegant blend of fresh florals, clean musk, and powdery notes that leaves you smelling effortlessly fresh, feminine, and beautifully clean.",
@@ -63,7 +63,7 @@ const scents = {
 
         collection: "dubai",
 
-        image: "Amirah.png",
+        image: "https://i.imgur.com/JsrI2oe.png",
 
         description:
             "A calm, luxurious moment of fresh flowers, soft sunlight, and quiet confidence. A presence that’s noticeable but never overpowering.",
@@ -99,7 +99,7 @@ const scents = {
 
         collection: "dubai",
 
-        image: "Zharah.png",
+        image: "https://i.imgur.com/ZVsuZHl.jpeg",
 
         description:
             "A soft and dreamy feminine aura, like being wrapped in a cloud of sweetness and light florals. A scent that feels smooth, airy, and comforting.",
@@ -135,7 +135,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "Cloud V2.png",
+        image: "https://i.imgur.com/74hNXKh.png",
 
         description:
             "A soft and elegant blend of fresh florals, clean musk, and powdery notes that leaves you smelling effortlessly fresh, feminine, and beautifully clean.",
@@ -171,7 +171,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "Sunnie.png",
+        image: "https://i.imgur.com/zZILjvW.jpeg",
 
         description:
             "A carefree summer afternoon by the coast, golden sunlight on warm skin, salty air drifting in, and laughter carrying into a dreamy sunset.",
@@ -207,7 +207,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "Sky.png",
+        image: "https://i.imgur.com/hK19BWk.jpeg",
 
         description:
             "Effortlessly clean, late afternoon walk along the coastline, slightly sun-warmed with a light breeze hitting at just the right moment.",
@@ -243,7 +243,7 @@ const scents = {
 
         collection: "dubai",
 
-        image: "Fharid.png",
+        image: "https://i.imgur.com/b936m7A.jpeg",
 
         description:
             "A cozy dinner date in a warm, vintage café, surrounded by fresh pastries, soft golden lights, and an intimate, effortlessly elegant atmosphere.",
@@ -279,7 +279,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "Powder Classic.png",
+        image: "https://i.imgur.com/Aj7YZJ6.jpeg",
 
         description:
             "A soft, freshly bathed feeling wrapped in clean linens, gentle sunlight, and the comforting warmth of a peaceful childhood afternoon.",
@@ -315,7 +315,7 @@ const scents = {
 
         collection: "dubai",
 
-        image: "Aswad.png",
+        image: "https://i.imgur.com/XKEIniP.jpeg",
 
         description:
             "A modern royal presence, a man in a tailored black suit, carrying quiet authority and effortless confidence.",
@@ -351,7 +351,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "Eros.png",
+        image: "https://i.imgur.com/wyjAwDm.jpeg",
 
         description:
             "A bold night out filled with electric energy, confident glances, and the feeling of being the center of attention in a luxurious city after dark.",
