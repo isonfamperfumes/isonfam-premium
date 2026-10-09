@@ -27,7 +27,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "https://i.imgur.com/5keWiJ0.jpeg",
+        image: "Bliss.png",
 
         description:
             "A soft and elegant blend of fresh florals, clean musk, and powdery notes that leaves you smelling effortlessly fresh, feminine, and beautifully clean.",
@@ -48,7 +48,7 @@ const scents = {
             "Blanche",
 
         bestFor:
-            " •  • "
+            "ffice wear, everyday use, and job interviews. Its fresh, soapy, powdery floral accords create a clean, polished impression without feeling overly sweet."
 
     },
 
@@ -63,7 +63,7 @@ const scents = {
 
         collection: "dubai",
 
-        image: "https://i.imgur.com/JsrI2oe.png",
+        image: "Amirah.png",
 
         description:
             "A calm, luxurious moment of fresh flowers, soft sunlight, and quiet confidence. A presence that’s noticeable but never overpowering.",
@@ -84,7 +84,7 @@ const scents = {
             "Ameerat Al Arab",
 
         bestFor:
-            "Add recommended occasions here."
+            "Everyday wear, office days, and daytime dates. Its fresh citrus, soft white florals, and musky woody accords create a clean, feminine scent that reviewers often describe as versatile and easy to wear."
 
     },
 
@@ -99,7 +99,7 @@ const scents = {
 
         collection: "dubai",
 
-        image: "https://i.imgur.com/ZVsuZHl.jpeg",
+        image: "Zharah.png",
 
         description:
             "A soft and dreamy feminine aura, like being wrapped in a cloud of sweetness and light florals. A scent that feels smooth, airy, and comforting.",
@@ -120,7 +120,7 @@ const scents = {
             "Yara",
 
         bestFor:
-            " •  • "
+            "Casual outings, daytime dates, and brunch with friends. Its sweet, creamy vanilla, tropical fruit, and powdery floral accords give it a playful, feminine character that many wearers enjoy for everyday use."
 
     },
 
@@ -135,7 +135,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "https://i.imgur.com/74hNXKh.png",
+        image: "Cloud V2.png",
 
         description:
             "A soft and elegant blend of fresh florals, clean musk, and powdery notes that leaves you smelling effortlessly fresh, feminine, and beautifully clean.",
@@ -156,7 +156,7 @@ const scents = {
             "Cloud",
 
         bestFor:
-            " •  • "
+            "Casual outings, cozy evenings, and daytime dates. Its creamy coconut, sweet praline, vanilla, and musky accords create a dreamy, comforting scent that many wearers enjoy for everyday use and cooler weather."
 
     },
 
@@ -171,7 +171,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "https://i.imgur.com/zZILjvW.jpeg",
+        image: "Sunnie.png",
 
         description:
             "A carefree summer afternoon by the coast, golden sunlight on warm skin, salty air drifting in, and laughter carrying into a dreamy sunset.",
@@ -192,7 +192,7 @@ const scents = {
             "Sundazed",
 
         bestFor:
-            " •  • "
+            "Sunny days, summer outings, vacations, and casual daytime dates. Its bright lemon and mandarin notes blend with neroli, jasmine, and sweet cotton candy musk, creating a cheerful, citrusy-sweet fragrance. Wearer reviews also describe it as playful, uplifting, and especially enjoyable in warm weather."
 
     },
 
@@ -207,7 +207,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "https://i.imgur.com/hK19BWk.jpeg",
+        image: "Sky.png",
 
         description:
             "Effortlessly clean, late afternoon walk along the coastline, slightly sun-warmed with a light breeze hitting at just the right moment.",
@@ -228,7 +228,7 @@ const scents = {
             "Gypsy Water",
 
         bestFor:
-            " •  • "
+            "Everyday wear, nature trips, casual outings, and relaxed daytime dates. Its fresh citrus, aromatic juniper, pine, and warm sandalwood-vanilla accords create an airy, woody scent that reviewers often describe as clean, subtle, and effortlessly sophisticated."
 
     },
 
@@ -243,7 +243,7 @@ const scents = {
 
         collection: "dubai",
 
-        image: "https://i.imgur.com/b936m7A.jpeg",
+        image: "Fharid.png",
 
         description:
             "A cozy dinner date in a warm, vintage café, surrounded by fresh pastries, soft golden lights, and an intimate, effortlessly elegant atmosphere.",
@@ -264,7 +264,7 @@ const scents = {
             "Khamrah",
 
         bestFor:
-            " •  • "
+            "vening dates, special occasions, dinner parties, and cool-weather outings. Its cinnamon, nutmeg, dates, praline, and vanilla accords create a rich, sweet, warm, and gourmand fragrance. Wearer reviews frequently praise its cozy sweetness and strong presence, making it especially appealing for evenings and cooler settings."
 
     },
 
@@ -279,7 +279,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "https://i.imgur.com/Aj7YZJ6.jpeg",
+        image: "Powder Classic.png",
 
         description:
             "A soft, freshly bathed feeling wrapped in clean linens, gentle sunlight, and the comforting warmth of a peaceful childhood afternoon.",
@@ -300,7 +300,7 @@ const scents = {
             "Baby Powder",
 
         bestFor:
-            " •  • "
+            "Everyday wear, office days, relaxing at home, and bedtime. Its soft, powdery, clean, and musky scent profile is associated with a freshly showered feeling, making it ideal for a gentle, comforting fragrance. Wearer feedback on similar baby-powder perfumes also highlights their cozy, nostalgic appeal."
 
     },
 
@@ -315,7 +315,7 @@ const scents = {
 
         collection: "dubai",
 
-        image: "https://i.imgur.com/XKEIniP.jpeg",
+        image: "Aswad.png",
 
         description:
             "A modern royal presence, a man in a tailored black suit, carrying quiet authority and effortless confidence.",
@@ -336,7 +336,7 @@ const scents = {
             "Asad",
 
         bestFor:
-            " •  • "
+            "Evening dates, formal events, and nights out, especially during cooler weather. Its bold black pepper, tobacco, coffee, warm amber, and vanilla accords create a spicy, woody, and sweet fragrance. Wearer reviews frequently favor it for nighttime wear and cooler seasons, though some find it too strong for hot weather."
 
     },
 
@@ -351,7 +351,7 @@ const scents = {
 
         collection: "premium",
 
-        image: "https://i.imgur.com/wyjAwDm.jpeg",
+        image: "Eros.png",
 
         description:
             "A bold night out filled with electric energy, confident glances, and the feeling of being the center of attention in a luxurious city after dark.",
@@ -372,7 +372,7 @@ const scents = {
             "Eros",
 
         bestFor:
-            " •  • "
+            "Nightlife, parties, romantic dates, and evening events, especially in cooler weather. Its mint, green apple, and lemon notes bring a fresh opening, while vanilla, tonka bean, and cedarwood add a sweet, warm, and bold finish. Wearer reviews commonly favor it for nights out and occasions when you want to stand out."
 
     }
 
