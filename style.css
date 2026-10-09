@@ -233,6 +233,7 @@ body {
     color: #666;
 }
 
+
 /* ==========================================
    COLLECTION PREVIEW
 ========================================== */
@@ -247,39 +248,85 @@ body {
     direction: rtl;
 }
 
-.collection-preview.reverse
-.preview-content {
+.collection-preview.reverse .preview-content {
     direction: ltr;
 }
+
+
+/* SHARED IMAGE SETTINGS */
 
 .preview-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:
-        linear-gradient(
-            135deg,
-            #d8d0c3,
-            #f3eee5
-        );
+
+    min-height: 650px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
+/* DUBAI COLLECTION IMAGE */
+
+.preview-dubai {
+    background-image:
+        linear-gradient(
+            180deg,
+            rgba(25, 20, 15, 0.15) 0%,
+            rgba(25, 20, 15, 0.45) 100%
+        ),
+        url("images/dubai-preview.jpg");
+}
+
+
+/* PREMIUM COLLECTION IMAGE */
+
+.preview-premium {
+    background-image:
+        linear-gradient(
+            180deg,
+            rgba(15, 15, 15, 0.15) 0%,
+            rgba(15, 15, 15, 0.50) 100%
+        ),
+        url("images/premium-preview.jpg");
+}
+
+
+/* TEXT OVER THE IMAGES */
+
+.preview-dubai span,
+.preview-premium span {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 10px;
+
+    text-shadow:
+        0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+/* DEFAULT IMAGE TEXT */
 
 .preview-image span {
     font-size: 30px;
     letter-spacing: 10px;
-    color: #555;
 }
+
+
+/* TEXT CONTENT */
 
 .preview-content {
     padding: 12%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .preview-content h2 {
-    font-size:
-        clamp(45px, 6vw, 75px);
+    font-size: clamp(45px, 6vw, 75px);
     font-weight: 400;
     line-height: 1;
     margin-bottom: 25px;
@@ -291,11 +338,20 @@ body {
     margin-bottom: 30px;
 }
 
+
+/* EXPLORE COLLECTION LINK */
+
 .text-link {
     color: #171717;
     text-decoration: none;
     font-size: 11px;
     letter-spacing: 2px;
+
+    transition: color 0.3s ease;
+}
+
+.text-link:hover {
+    color: #bf0000;
 }
 
 .text-link span {
