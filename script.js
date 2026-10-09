@@ -264,7 +264,7 @@ const scents = {
             "Khamrah",
 
         bestFor:
-            "vening dates, special occasions, dinner parties, and cool-weather outings. Its cinnamon, nutmeg, dates, praline, and vanilla accords create a rich, sweet, warm, and gourmand fragrance. Wearer reviews frequently praise its cozy sweetness and strong presence, making it especially appealing for evenings and cooler settings."
+            "Evening dates, special occasions, dinner parties, and cool-weather outings. Its cinnamon, nutmeg, dates, praline, and vanilla accords create a rich, sweet, warm, and gourmand fragrance. Wearer reviews frequently praise its cozy sweetness and strong presence, making it especially appealing for evenings and cooler settings."
 
     },
 
