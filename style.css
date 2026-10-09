@@ -277,7 +277,7 @@ body {
             rgba(25, 20, 15, 0.15) 0%,
             rgba(25, 20, 15, 0.45) 100%
         ),
-        url("images/dubai-preview.jpg");
+        url("https://i.imgur.com/Xqel8sH.jpeg");
 }
 
 
@@ -290,7 +290,7 @@ body {
             rgba(15, 15, 15, 0.15) 0%,
             rgba(15, 15, 15, 0.50) 100%
         ),
-        url("images/premium-preview.jpg");
+        url("https://i.imgur.com/pUefCWK.jpeg");
 }
 
 
@@ -403,7 +403,7 @@ body {
             rgba(20, 15, 10, 0.35) 75%,
             rgba(20, 15, 10, 0.50) 100%
         ),
-        url("https://i.imgur.com/Xqel8sH.jpeg");
+        url("https://i.imgur.com/RffQ18F.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -418,7 +418,7 @@ body {
             rgba(20, 15, 10, 0.35) 75%,
             rgba(20, 15, 10, 0.50) 100%
         ),
-        url("https://i.imgur.com/pUefCWK.jpeg");
+        url("https://i.imgur.com/b423CLe.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
