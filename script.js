@@ -48,7 +48,7 @@ const scents = {
             "Blanche",
 
         bestFor:
-            "ffice wear, everyday use, and job interviews. Its fresh, soapy, powdery floral accords create a clean, polished impression without feeling overly sweet."
+            "Office wear, everyday use, and job interviews. Its fresh, soapy, powdery floral accords create a clean, polished impression without feeling overly sweet."
 
     },
 
@@ -156,7 +156,7 @@ const scents = {
             "Cloud",
 
         bestFor:
-            "Casual outings, cozy evenings, and daytime dates. Its creamy coconut, sweet praline, vanilla, and musky accords create a dreamy, comforting scent that many wearers enjoy for everyday use and cooler weather."
+            "Cozy evenings and daytime dates. Its creamy coconut, sweet praline, vanilla, and musky accords create a dreamy, comforting scent that many wearers enjoy for everyday use and cooler weather."
 
     },
 
