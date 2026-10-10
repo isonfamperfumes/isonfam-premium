@@ -369,7 +369,7 @@ body {
 }
 
 .brand-statement h2 {
-    max-width: 1000px;
+    max-width: 950px;
     font-size:
         clamp(50px, 8vw, 100px);
     line-height: .9;
@@ -453,7 +453,7 @@ body {
     line-height: 0.95;
     font-weight: 400;
     letter-spacing: -2px;
-    max-width: 750px;
+    max-width: 950px;
     margin-bottom: 30px;
 }
 
