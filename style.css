@@ -762,3 +762,139 @@ footer > p {
         padding: 100px 7%;
     }
 }
+
+
+/* ==========================================
+   COMING SOON COLLECTION
+========================================== */
+
+.coming-soon-section {
+    position: relative;
+    min-height: 480px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 100px 8%;
+    text-align: center;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            135deg,
+            #171717 0%,
+            #30251f 55%,
+            #171717 100%
+        );
+
+    overflow: hidden;
+}
+
+/* Subtle decorative glow */
+.coming-soon-section::before {
+    content: "";
+    position: absolute;
+
+    width: 420px;
+    height: 420px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background: radial-gradient(
+        circle,
+        rgba(191, 0, 0, 0.14) 0%,
+        rgba(191, 0, 0, 0) 70%
+    );
+
+    pointer-events: none;
+}
+
+.coming-soon-content {
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    max-width: 850px;
+}
+
+.coming-soon-section .eyebrow {
+    color: #d2bba5;
+
+    font-size: 11px;
+    letter-spacing: 5px;
+
+    margin-bottom: 28px;
+}
+
+.coming-soon-content h2 {
+    font-size: clamp(42px, 6.5vw, 82px);
+
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -2px;
+
+    margin-bottom: 25px;
+}
+
+.coming-soon-description {
+    max-width: 520px;
+
+    margin: 0 auto 35px;
+
+    color: #d0cbc5;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.coming-soon-label {
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    border: 1px solid #bf0000;
+
+    color: #ffffff;
+
+    font-size: 10px;
+    letter-spacing: 4px;
+
+    transition:
+        background 0.3s ease,
+        border-color 0.3s ease;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+
+    .coming-soon-section {
+        min-height: 400px;
+        padding: 80px 7%;
+    }
+
+    .coming-soon-section .eyebrow {
+        font-size: 9px;
+        letter-spacing: 3px;
+        line-height: 1.8;
+    }
+
+    .coming-soon-content h2 {
+        font-size: clamp(38px, 10vw, 54px);
+        letter-spacing: -1px;
+    }
+
+    .coming-soon-description {
+        font-size: 14px;
+    }
+
+    .coming-soon-label {
+        padding: 12px 22px;
+        letter-spacing: 3px;
+    }
+
+}
