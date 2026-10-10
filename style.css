@@ -583,14 +583,14 @@ body {
 .scent-info span,
 .inspiration span {
     display: block;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 3px;
     color: #888;
     margin-bottom: 5px;
 }
 
 .scent-info p {
-    font-size: 14px;
+    font-size: 16px;
 
 }
 
@@ -603,6 +603,7 @@ body {
 
 .inspiration p {
     font-size: 14px;
+    font-style: italic;
     color: #666;
 }
 
