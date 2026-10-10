@@ -552,9 +552,10 @@ body {
 }
 
 .scent-number {
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 500;
     letter-spacing: 3px;
-    color: #999;
+    color: #f80000;
     margin-bottom: 30px;
 }
 
